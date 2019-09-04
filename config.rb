@@ -37,10 +37,7 @@ end
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
 
-# Assumes the file source/about/template.html.erb exists
-["Contact", "About", "Services"].each do |name|
-  proxy "#{name}.html", "index.html", :locals => { :person_name => name }
-end
+
 
 # proxy product.yml files to product.html 
 data.products.each do |_filename, product|
