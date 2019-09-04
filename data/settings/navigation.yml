@@ -1,7 +1,13 @@
-nav_items: 
-  - {label: 'Home', path: '/'}
-  - {label: 'Products', path: '/products/'}
-  - {label: 'News', path: '/news'}
-  - {label: 'About', path: '/about'}
-  - {label: 'Contact', path: '/contact'}
-
+nav_items:
+  - label: Home
+    path: /
+  - label: Products
+    path: /products/
+  - label: News
+    path: /news
+  - label: About
+    path: /about
+  - label: Contact
+    path: /contact
+  - label: Services
+    path: services
